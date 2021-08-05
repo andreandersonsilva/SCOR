@@ -4,15 +4,16 @@ body{
 
 section{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px;
-    width: 500px;
+    width: 1000px;
     margin: auto;
     box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
+    font: normal 12pt arial;
     
 }
 
 h1#titulo{
     text-align: center;
-    font: normal 20pt arial;
+    font: bold 20pt arial;
 }
