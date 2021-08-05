@@ -1,0 +1,2 @@
+# SCOR
+ Projeto_SC
