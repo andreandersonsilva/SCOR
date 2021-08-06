@@ -2,8 +2,8 @@ body{
     background: url("logotipo.png");
 }
 
-section{
-    background-color: white;
+section#cima{
+    background-color: rgb(127, 248, 103);
     border-radius: 5px;
     padding: 15px;
     width: 1000px;
@@ -13,7 +13,40 @@ section{
     
 }
 
+section#baixo{
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 15px;
+    width: 1000px;
+    margin: 10px auto auto auto;
+    box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
+    font: normal 12pt arial;
+    
+}
+
+
 h1#titulo{
     text-align: center;
     font: bold 20pt arial;
+}
+
+footer{
+    text-align: center;
+    font: normal 8pt arial;
+}
+
+select#flista{
+
+    width: 700pt;
+    position: relative;
+ 
+}
+
+h3{
+    text-align: center;
+}
+
+p#ajuste{
+    font:bold 10pt arial;
 }
