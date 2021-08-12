@@ -3,6 +3,12 @@ body{
     
 }
 
+
+input#botao{
+    border-radius: 5px;
+        
+}
+
 section#cima{
     background-color: rgb(127, 248, 103);
     border-radius: 5px;
