@@ -52,7 +52,7 @@ function chamadosLL(){
     //img.src = "taxadeerro.png"
     //document.getElementById("imagem")
     img.setAttribute('id', 'imagem')
-    img.setAttribute('src', 'taxadeerro.png')
+    img.setAttribute('src', 'taxadeerro.PNG')
     
     
     res.style.textAlign = "center"
