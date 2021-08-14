@@ -49,12 +49,12 @@ function preditiva(){
 function chamadosLL(){
     let res = document.getElementById("flista")
     let img = document.createElement("img")
-    img.src = "logerro.jpg"
+    img.src = "taxadeerro.png"
     document.getElementById("imagem")
     
     
     res.style.textAlign = "center"
-    res.innerHTML = `<p><b>Verificação de taxa de Erro na Rede Nokia (Somente para 2G, usando comando ZYMO)</p></b><p>Estamos com alto número de falhas reincidentes e o ofensor são os sites atendidos pela Vivo. Com isso vamos tratar os chamados da seguinte forma: Após a resolução da Vivo, vamos zerar as ET´s e monitorar por 3 horas a taxa de erro pelo comando ZYMO.</p><p>Ao termino das 3 horas, vamos verificar pelo comando ZYMO se existe taxa de erro e não havendo, vamos autorizar o encerramento do chamado vivo e enviar um e-mail com o nome do site e chamado, conforme exemplo abaixo: </p><p><b><i>Em caso de dúvidas ou falta de conhecimento, vamos acionar a equipe de TX para verificar e zerar as ET´s.</i></b></p><p>Para: LD-OI-CI-O&MSP </p><p>Assunto: Nome do Site, Número do Chamado. </p>`
+    res.innerHTML = `<p><b>Verificação de taxa de Erro na Rede Nokia (Somente para 2G, usando comando ZYMO)</p></b><p>Estamos com alto número de falhas reincidentes e o ofensor são os sites atendidos pela Vivo. Com isso vamos tratar os chamados da seguinte forma: Após a resolução da Vivo, vamos zerar as ET´s e monitorar por 3 horas a taxa de erro pelo comando ZYMO.</p><p>Ao termino das 3 horas, vamos verificar pelo comando ZYMO se existe taxa de erro e não havendo, vamos autorizar o encerramento do chamado vivo e enviar um e-mail com o nome do site e chamado, conforme exemplo abaixo: </p><p><b><i>Em caso de dúvidas ou falta de conhecimento, vamos acionar a equipe de TX para verificar e zerar as ET´s.</i></b></p><p><b>Para:</b> LD-OI-CI-O&MSP </p><p><b>Assunto:</b> Nome do Site, Número do Chamado. </p>`
     res.appendChild(img)
     
        
