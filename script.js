@@ -49,8 +49,10 @@ function preditiva(){
 function chamadosLL(){
     let res = document.getElementById("flista")
     let img = document.createElement("img")
-    img.src = "taxadeerro.png"
-    document.getElementById("imagem")
+    //img.src = "taxadeerro.png"
+    //document.getElementById("imagem")
+    img.setAttribute('id', 'imagem')
+    img.setAttribute('src', 'taxadeerro.png')
     
     
     res.style.textAlign = "center"
