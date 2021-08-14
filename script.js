@@ -1,6 +1,26 @@
 function mensagem(){
     let res = document.getElementById("flista")
-    res.innerHTML = "<p><b>Vultos por falta de AC / Copiar e colar a mensagem fazendo os devidos ajustes</b></p><p>Segue para conhecimento estamos com um vulto na *LOCALIDADE*, devido a falta de energia no concentrador *SITE* devido programada emergencial da *CONCESSIONÁRIA* na região previsto término as 13:30, site é greenfield, técnico *NOME DO TÉCNICO* acionado antes do prazo dos 50% previsão de chegada às 12:10. </p><p>Concessionária está com a equipe próximo realizando tratativa. </p> *Sites 2G:* Quantitativo<br>*Sites 3G:* Quantitativo<br><br>*Início de falha:* xx:xx<br>*Autonomia:* xxx<br>*Horário acio. téc.:* xx:xx<br><br><p><b>Vultos por queda direta TX OI ou TX LL / Copiar e colar a mensagem fazendo os devidos ajustes</b></p><p><b>Vulto TX OI com único ponto comum</b></p> <p>Segue para conhecimento de estamos com um vulto na *LOCALIDADE*, acionado suporte de TX para análise, site concentrador *SITE*, técnico em deslocamento com previsão de chegada no local para às *horário*, verificado na gerência sem indícios de alarmes de infra. </p>*Sites 2G:* Quantitativo<br>*Sites 3G:* Quantitativo<br><br>*Início de falha:* xx:xx<br>*Horário acio. téc.:* xx:xx<br><br> <p><b>Vulto TX LL sem ponto comum</b></p><p>Segue para conhecimento de estamos com um vulto na *LOCALIDADE*, acionado suporte de TX para análise, sites afetados são TX LL, em processo de abertura dos chamados com o provedor. </p>*Sites 2G:* Quantitativo<br>*Sites 3G:* Quantitativo<br><br>*Início de falha:* xx:xx<br>*Horário acio. téc.:* xx:xx"
+    res.innerHTML = "<p><b>Vultos por falta de AC / Copiar e colar a mensagem fazendo os devidos ajustes</b></p>"
+    res.innerHTML += "<p>Segue para conhecimento estamos com um vulto na *LOCALIDADE*, devido a falta de energia no concentrador *SITE* devido programada emergencial da *CONCESSIONÁRIA* na região previsto término as 13:30, site é greenfield, técnico *NOME DO TÉCNICO* acionado antes do prazo dos 50% previsão de chegada às 12:10. </p>" 
+    res.innerHTML += "<p>Concessionária está com a equipe próximo realizando tratativa. </p>" 
+    res.innerHTML += "*Sites 2G:* Quantitativo<br>"
+    res.innerHTML += "*Sites 3G:* Quantitativo<br><br>*"
+    res.innerHTML += "Início de falha:* xx:xx<br>"
+    res.innerHTML += "*Autonomia:* xxx<br>"
+    res.innerHTML += "*Horário acio. téc.:* xx:xx<br><br>"
+    res.innerHTML += "<p><b>Vultos por queda direta TX OI ou TX LL / Copiar e colar a mensagem fazendo os devidos ajustes</b></p>"
+    res.innerHTML += "<p><b>Vulto TX OI com único ponto comum</b></p>"
+    res.innerHTML += "<p>Segue para conhecimento de estamos com um vulto na *LOCALIDADE*, acionado suporte de TX para análise, site concentrador *SITE*, técnico em deslocamento com previsão de chegada no local para às *horário*, verificado na gerência sem indícios de alarmes de infra. </p>"
+    res.innerHTML += "*Sites 2G:* Quantitativo<br>"
+    res.innerHTML += "*Sites 3G:* Quantitativo<br><br>"
+    res.innerHTML += "*Início de falha:* xx:xx<br>"
+    res.innerHTML += "*Horário acio. téc.:* xx:xx<br><br>" 
+    res.innerHTML += "<p><b>Vulto TX LL sem ponto comum</b></p>"
+    res.innerHTML += "<p>Segue para conhecimento de estamos com um vulto na *LOCALIDADE*, acionado suporte de TX para análise, sites afetados são TX LL, em processo de abertura dos chamados com o provedor. </p>"
+    res.innerHTML += "*Sites 2G:* Quantitativo<br>"
+    res.innerHTML += "*Sites 3G:* Quantitativo<br><br>"
+    res.innerHTML += "*Início de falha:* xx:xx<br>"
+    res.innerHTML += "*Horário acio. téc.:* xx:xx"
     
 }
 
@@ -28,14 +48,16 @@ function preditiva(){
 
 function chamadosLL(){
     let res = document.getElementById("flista")
-    //let img = document.createElement("img")
-    //img.src = "logerro.jpg"
-    //document.getElementById("imagem").appendChild(img)
+    let img = document.createElement("img")
+    img.src = "logerro.jpg"
+    document.getElementById("imagem")
+    
     
     res.style.textAlign = "center"
     res.innerHTML = `<p><b>Verificação de taxa de Erro na Rede Nokia (Somente para 2G, usando comando ZYMO)</p></b><p>Estamos com alto número de falhas reincidentes e o ofensor são os sites atendidos pela Vivo. Com isso vamos tratar os chamados da seguinte forma: Após a resolução da Vivo, vamos zerar as ET´s e monitorar por 3 horas a taxa de erro pelo comando ZYMO.</p><p>Ao termino das 3 horas, vamos verificar pelo comando ZYMO se existe taxa de erro e não havendo, vamos autorizar o encerramento do chamado vivo e enviar um e-mail com o nome do site e chamado, conforme exemplo abaixo: </p><p><b><i>Em caso de dúvidas ou falta de conhecimento, vamos acionar a equipe de TX para verificar e zerar as ET´s.</i></b></p><p>Para: LD-OI-CI-O&MSP </p><p>Assunto: Nome do Site, Número do Chamado. </p>`
+    res.appendChild(img)
     
-    
+       
 }
 
 function vulto(){
