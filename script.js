@@ -129,3 +129,81 @@ function encBA(){
     res.innerHTML += "<p><b>Horário Comercial:</b> Supervisor da região. </p>"
     res.innerHTML += "<p><b>Fora do Horário Comercial:</b> Supervisor de plantão.</p>"
 }
+
+function CofSULCO(){
+    let res = document.getElementById("flista")
+    res.innerHTML = "<p><b>WhatsApp Infra-Vultos R2/R3</p></b>"
+    res.innerHTML += "<p> BAs com interrupções, afetação >= 14 sites.</p>"
+    res.innerHTML += "<p>BAs com interrupções, Interrupções de Sites Ransharing >=14.</p>"
+    
+    res.innerHTML += "<p><b>WhatsApp Alinhamento COR + Campo</b></p>"
+    res.innerHTML += "<p>BAs de Rotas Inter-As RanSharing SUL/CO/SP, reforçando, somente postar no <b>Alinhamento COR + Campo</b>, não precisa postar no grupo <b>Infra Vultos R2/R3</b>.</p>"
+    
+    res.innerHTML += "<p>BAs de Rotas de TX, sem afetação, mas que gere risco de afetação para rede móvel, somente para UF:SP. (Este cenário deve ser certificado/validado e confirmado pela equipe de TX, para postagem no grupo WhatsApp Alinhamento COR + Campo).</p>"
+    
+}
+
+function BAFO(){
+    let res = document.getElementById("flista")
+    res.innerHTML = "<p>Todo BA causa <b>FO OI</b> não deve ser fechado nos <b>COS (SPCN1, SPCH1, SPCBS, SPCNS, SPC02)</b>, sempre tramitar o BA para o <b>COS de FO<br>.</p>"
+    res.innerHTML += "<p><b>Obs:</b> Mesmo com afetação.</p>"
+
+}
+
+function BAafetacao(){
+    let res = document.getElementById("flista")
+    res.innerHTML = "<p><b>1º) somente em horário comercial</b></p>"
+    res.innerHTML += "<p>Todo BA 98 com afetação, repetido (>0) deve ser escalonado o supervisor responsável e depois colocar nota no grupo <b>Alinhamento+Campo</b>.</p>"
+    res.innerHTML += "<p><b>Obs.: Somente para SP.</b></p>"
+    res.innerHTML += "<p>Exemplo da nota: </p>"
+    res.innerHTML += "<p>Numero BA, Site, REP: XX, Escalonado Supervisor Responsável XXXXX.</p>"
+    res.innerHTML += "<p><b>Se a causa for TX-LL</b></p>"
+    res.innerHTML += "<p>Exemplo da nota:</p>"
+    res.innerHTML += "<p>Numero BA, Site, REP: XX, TX-LL, Supervisor Responsável XXXXX.</p>"
+    res.innerHTML += "<p><b>2º) Fora do horário comercial</b></p>"
+    res.innerHTML += "<p><b>Causa TX-LL repetida (>=3)</b></p>"
+    res.innerHTML += "<p>Todo BA 98 com afetação, postamos nota no grupo <b>Alinhamento+Campo</b> e realizaremos o contato telefônico com o Supervisor da área ou Supervisor de Plantão.</p>"
+    res.innerHTML += "<p><b>Obs.: Somente para SP.</b></p>"
+    res.innerHTML += "<p>Exemplo da nota:</p>"
+    res.innerHTML += "<p>Numero BA, Site, REP: XX, TX-LL, Supervisor Responsável XXXXX. </p>"
+    res.innerHTML += "<p><b>Causa TX-LL repetida (<3) ou Site Sem BB repetida (>0) </b></p>"
+    res.innerHTML += "<p>Todo BA 98 com afetação, somente postar nota no grupo <b>Alinhamento+Campo</b>.</p>"
+    res.innerHTML += "<p><b>Obs.: Somente para SP. </b></p>"
+    res.innerHTML += "<p>Exemplo da nota:</p>"
+    res.innerHTML += "<p>Número BA, Site, REP: XX, TX-LL, Supervisor Responsável XXXXX. </p>"
+    res.innerHTML += "<p><b>Repetida (=1) </b></p>"
+    res.innerHTML += "<p>Todo BA 98 com afetação, somente postar nota no grupo <b>Alinhamento+Campo</b>.</p>"
+    res.innerHTML += "<p><b>Obs.: Somente para SP. </b></p>"
+    res.innerHTML += "<p>Exemplo da nota:</p>"
+    res.innerHTML += "<p>Número BA, Site, REP: XX, Supervisor Responsável XXXXX.</p>"
+    res.innerHTML += "<p><b>Repetidas (>=2), ou seja, causa não é TX-LL, site tem BB</b></p>"
+    res.innerHTML += "<p>Todo BA 98 com afetação, postamos nota no grupo <b>Alinhamento+Campo</b> e realizaremos o contato telefônico com o Supervisor de Plantão. </p>"
+    res.innerHTML += "<p><b>Obs.: Somente para SP. </b></p>"
+    res.innerHTML += "<p>Exemplo da nota: </p>"
+    res.innerHTML += "<p>Número BA, Site, REP:XX, Supervisor Responsável XXXXX. </p>"
+    res.innerHTML += "<p><b>Obs.: Também colocar nota no BA</b></p>"
+
+}
+
+function ACrepetido(){
+    let res = document.getElementById("flista")
+    res.innerHTML = "<p>Nosso indicador de reincidência na UF:SP aumentou e um dos pontos a ser melhorado é o tratamento do alarme de Falha de AC. Com isso, para tratamento do alarme de <b>Falha de AC</b>, até segunda ordem, vamos seguir a orientação abaixo:</p>"
+    res.innerHTML += "<p><b>(Exceto Sábado, Domingo e Feriado)</p></b>"
+    res.innerHTML += "<p>Após a identificação do <b>2º alarme de Falha de AC</b>, entrar em contato com Supervisor (Horário Comercial) / Supervisor de Plantão (Horário Fora do Comercial) para definir o atendimento.</p>"
+    res.innerHTML += "<p><b>Importante o operador ter as informações das intermitências da Falha de AC para definição de atendimento em conjunta com o Supervisor</b></p>"
+
+}
+
+function semrecurso(){
+    let res = document.getElementById("flista")
+    res.innerHTML = "<p><b>1º )</b> Ao acionar o técnico campo e não havendo a disponibilidade do técnico, acionar o supervisor responsável em horário comercial e fora do horário comercial vamos acionar o supervisor de plantão.</p>"
+    res.innerHTML += "<p><b>2º )</b> Se o técnico de campo está acionado e retornar a ligação para sala COR informando a impossibilidade de atender o acionamento, acionar o supervisor responsável em horário comercial e fora do horário comercial vamos acionar o supervisor de plantão</p>"
+
+}
+
+function acionamentoTEC(){
+    let res = document.getElementById("flista")
+    res.innerHTML = "<p><b>Conforme acordado gerencialmente</p></b>"
+    res.innerHTML += "<p>Para todos os casos de Vulto a partir de 5 sites onde haja um concentrador enviar técnico imediatamente e após fazer acionamento de suporte de TX e de provedor se for o caso de TX LL com o técnico já em deslocamento</p>"
+
+}
