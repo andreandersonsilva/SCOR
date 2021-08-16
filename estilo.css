@@ -13,7 +13,7 @@ input#botao{
 }
 
 section#cima{
-    background-color: rgb(127, 248, 103);
+    background-color: rgb(179, 250, 165);
     border-radius: 5px;
     padding: 15px;
     width: 1000px;
@@ -21,7 +21,23 @@ section#cima{
     box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
     font: normal 12pt arial;
     
+    
+    
 }
+
+
+div#borda{
+    border-bottom: 1px black solid;
+    color: red;
+    
+}    
+
+div#concentradores{
+    border-bottom: 1px black solid;
+    color: red;
+    
+}    
+
 
 section#baixo{
     background-color: white;
@@ -33,6 +49,7 @@ section#baixo{
     box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
     font: normal 12pt arial;
     
+    
 }
 
 
@@ -42,6 +59,7 @@ h1#titulo{
 }
 
 footer{
+    
     text-align: center;
     font: normal 8pt arial;
 }

@@ -27,7 +27,7 @@ function mensagem(){
 function regra01(){
 
     let res = document.getElementById("flista")
-    res.style.textAlign = "center"
+    
     res.innerHTML = "<b>Reforçando:</b><p><b>1º Acionamento de BA 98 com Afetação</b></p>"
     res.innerHTML += "<p>BA 98 com afetação, independentemente da quantidade, precisa ser atendido ou escalonado <b>(Supervisor, Gerente N5 ou Gerente N4)</b></p>"
     res.innerHTML += "<p>Obs: Sempre descrevam dentro do BA o nome das pessoas escalonadas.</p>"
@@ -48,7 +48,7 @@ function regra01(){
 
 function TXLLCOF(){
     let res = document.getElementById("flista")
-    res.style.textAlign = "center"
+    
     res.innerHTML = "<p>Estamos com o indicador de disponibilidade fora da meta e com isso, peço a gentileza de redobrar a atenção com os dois pontos abaixo:</p>"
     res.innerHTML += "<p><b>1º Avisos de COF com afetação Móvel</b></p>"
     res.innerHTML += "<p>BAs de COF com afetação > 13, avisar imediatamente o Gerente N4, 24hs x 7 dias da semana.</p>"
@@ -61,7 +61,7 @@ function TXLLCOF(){
 
 function preditiva(){
     let res = document.getElementById("flista")
-    res.style.textAlign = "center"
+    
     res.innerHTML = "<p><b>Vamos começar a apoiar campo nos BA´s de preventiva relacionado ao tema preditivo com causa de falha TX-LL.</b></p>"
     res.innerHTML += "<p>Os supervisores de campo nos solicitarão abertura de chamado junto com o provedor de TX-LL.</p>"
     res.innerHTML += "<p><b>1º</b> Sala COR abrirá o chamado com o BA e LP em mãos. </p>"
@@ -79,7 +79,7 @@ function chamadosLL(){
     img.setAttribute('src', 'taxaerro.png')
     
     
-    res.style.textAlign = "center"
+    
     res.innerHTML = "<p><b>Verificação de taxa de Erro na Rede Nokia (Somente para 2G, usando comando ZYMO)</p></b>"
     res.innerHTML += "<p>Estamos com alto número de falhas reincidentes e o ofensor são os sites atendidos pela Vivo. Com isso vamos tratar os chamados da seguinte forma: Após a resolução da Vivo, vamos zerar as ET´s e monitorar por 3 horas a taxa de erro pelo comando ZYMO.</p>"
     res.innerHTML += "<p>Ao termino das 3 horas, vamos verificar pelo comando ZYMO se existe taxa de erro e não havendo, vamos autorizar o encerramento do chamado vivo e enviar um e-mail com o nome do site e chamado, conforme exemplo abaixo: </p>"
@@ -88,12 +88,13 @@ function chamadosLL(){
     res.innerHTML += "<p><b>Assunto:</b> Nome do Site, Número do Chamado. </p>"
     res.appendChild(img)
     
+    
        
 }
 
 function vulto(){
     let res = document.getElementById("flista")
-    res.style.textAlign = "center"
+    
     res.innerHTML = "<b>Vulto Afetação > 5 e < 14. (Com ou Sem BA) </b>"
     res.innerHTML += "<p>Horário Comercial: Supervisor + Gerente N5 + Gerente N4</p>"
     res.innerHTML += "<p>Fora do Horário Comercial: Supervisor</p>"
@@ -122,7 +123,7 @@ function vulto(){
 
 function encBA(){
     let res = document.getElementById("flista")
-    res.style.textAlign = "center"
+    
     res.innerHTML = "<p>Estamos com alto número de falhas reincidentes com BA 98 causados por TX-LL Vivo. </p>"
     res.innerHTML += "<p>Vamos tratar os BAs 98 com afetação junto com os Supervisores de Campo para UF: SP. </p>"
     res.innerHTML += "<p>Com isso, todo BA 98 com afetação, repetida > 1 (Maior que um) TX-LL VIVO, vamos solicitar a autorização <b>de acordo</b> do supervisor de campo para fechamento do BA. </p>"
