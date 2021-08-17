@@ -3,49 +3,82 @@ body{
     
 }
 
-h4{
-    color:red;
+header#cabecalho {
+    border-bottom: 1px black solid;
 }
+
+header#cabecalho h1{
+    padding: 25px 10px 10px 10px
+}
+
+div#interface {
+    width: 1000px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+div#interface h4{
+    color:red;
+    font: bold 18px arial;
+    
+    
+}
+
+div#interface p {
+    font: normal 13px arial;
+}
+
+nav#menu {
+    display: block;
+    font:bold 11px arial;
+}
+
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -12px;
+    left: 700px;
+}
+
+nav#menu li:hover {
+    background-color: #dddddd;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(179, 250, 165);
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgb(0,0,0,0.514);
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color:white;
+}
+
 
 input#botao{
     border-radius: 5px;
         
 }
 
-section#cima{
-    background-color: rgb(179, 250, 165);
-    border-radius: 5px;
-    padding: 15px;
-    width: 1000px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
-    font: normal 12pt arial;
-    
-}
-
-
-div#borda{
-    border-bottom: 1px black solid;
-    color: red;
-    
-}    
 
 div#concentradores{
-    border-bottom: 1px black solid;
+    /*border-bottom: 1px black solid;*/
     color: red;
 }    
-
-section#baixo{
-    background-color: white;
-    border-radius: 5px;
-    position: relative;
-    padding: 15px;
-    width: 1000px;
-    margin: 10px auto auto auto;
-    box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
-    font: normal 12pt arial;
-}
-
 
 h1#titulo{
     text-align: center;
@@ -58,11 +91,11 @@ footer{
     font: normal 8pt arial;
 }
 
-select#flista{
+/*select#flista{
 
     width: 700pt;
     position: relative;
-}
+}*/
 
 h3{
     text-align: center;
@@ -70,5 +103,25 @@ h3{
 
 p#ajuste{
     font:bold 10pt arial;
+}
+
+div#borda{
+    
+    border-bottom: 1px black solid;
+    font: bold 15px arial;
+    color: red;
+    background-color: rgb(206, 236, 206);
+}
+
+section#cima{
+    border-bottom: 1px black solid;
+    background-color: rgb(206, 236, 206);
+    padding: 10px;
+}
+
+div#flista h3{
+    font: bold 20px arial;
+    color: red;
+    padding: 10px;
 }
 

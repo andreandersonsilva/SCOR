@@ -3,24 +3,24 @@ function mensagem(){
     res.innerHTML = "<p><b>Vultos por falta de AC / Copiar e colar a mensagem fazendo os devidos ajustes</b></p>"
     res.innerHTML += "<p>Segue para conhecimento estamos com um vulto na *LOCALIDADE*, devido a falta de energia no concentrador *SITE* devido programada emergencial da *CONCESSIONÁRIA* na região previsto término as 13:30, site é greenfield, técnico *NOME DO TÉCNICO* acionado antes do prazo dos 50% previsão de chegada às 12:10. </p>" 
     res.innerHTML += "<p>Concessionária está com a equipe próximo realizando tratativa. </p>" 
-    res.innerHTML += "*Sites 2G:* Quantitativo<br>"
-    res.innerHTML += "*Sites 3G:* Quantitativo<br><br>*"
-    res.innerHTML += "Início de falha:* xx:xx<br>"
-    res.innerHTML += "*Autonomia:* xxx<br>"
-    res.innerHTML += "*Horário acio. téc.:* xx:xx<br><br>"
+    res.innerHTML += "<p>*Sites 2G:* Quantitativo<br></p>"
+    res.innerHTML += "<p>*Sites 3G:* Quantitativo<br><br></p>"
+    res.innerHTML += "<p>*Início de falha:* xx:xx<br></p>"
+    res.innerHTML += "<p>*Autonomia:* xxx<br></p>"
+    res.innerHTML += "<p>*Horário acio. téc.:* xx:xx<br><br></p>"
     res.innerHTML += "<p><b>Vultos por queda direta TX OI ou TX LL / Copiar e colar a mensagem fazendo os devidos ajustes</b></p>"
     res.innerHTML += "<p><b>Vulto TX OI com único ponto comum</b></p>"
     res.innerHTML += "<p>Segue para conhecimento de estamos com um vulto na *LOCALIDADE*, acionado suporte de TX para análise, site concentrador *SITE*, técnico em deslocamento com previsão de chegada no local para às *horário*, verificado na gerência sem indícios de alarmes de infra. </p>"
-    res.innerHTML += "*Sites 2G:* Quantitativo<br>"
-    res.innerHTML += "*Sites 3G:* Quantitativo<br><br>"
-    res.innerHTML += "*Início de falha:* xx:xx<br>"
-    res.innerHTML += "*Horário acio. téc.:* xx:xx<br><br>" 
+    res.innerHTML += "<p>*Sites 2G:* Quantitativo<br></p>"
+    res.innerHTML += "<p>*Sites 3G:* Quantitativo<br><br></p>"
+    res.innerHTML += "<p>*Início de falha:* xx:xx<br></p>"
+    res.innerHTML += "<p>*Horário acio. téc.:* xx:xx<br><br></p>" 
     res.innerHTML += "<p><b>Vulto TX LL sem ponto comum</b></p>"
     res.innerHTML += "<p>Segue para conhecimento de estamos com um vulto na *LOCALIDADE*, acionado suporte de TX para análise, sites afetados são TX LL, em processo de abertura dos chamados com o provedor. </p>"
-    res.innerHTML += "*Sites 2G:* Quantitativo<br>"
-    res.innerHTML += "*Sites 3G:* Quantitativo<br><br>"
-    res.innerHTML += "*Início de falha:* xx:xx<br>"
-    res.innerHTML += "*Horário acio. téc.:* xx:xx"
+    res.innerHTML += "<p>*Sites 2G:* Quantitativo<br></p>"
+    res.innerHTML += "<p>*Sites 3G:* Quantitativo<br><br></p>"
+    res.innerHTML += "<p>*Início de falha:* xx:xx<br></p>"
+    res.innerHTML += "<p>*Horário acio. téc.:* xx:xx</p>"
     
 }
 
@@ -28,7 +28,7 @@ function regra01(){
 
     let res = document.getElementById("flista")
     
-    res.innerHTML = "<b>Reforçando:</b><p><b>1º Acionamento de BA 98 com Afetação</b></p>"
+    res.innerHTML = "<p><b>Reforçando:</b></p><p><b>1º Acionamento de BA 98 com Afetação</b></p>"
     res.innerHTML += "<p>BA 98 com afetação, independentemente da quantidade, precisa ser atendido ou escalonado <b>(Supervisor, Gerente N5 ou Gerente N4)</b></p>"
     res.innerHTML += "<p>Obs: Sempre descrevam dentro do BA o nome das pessoas escalonadas.</p>"
     res.innerHTML += "<p>Não temos autorização de segurar acionamentos para horário comercial por qualquer tipo de problema.</p>"
@@ -95,26 +95,25 @@ function chamadosLL(){
 function vulto(){
     let res = document.getElementById("flista")
     
-    res.innerHTML = "<b>Vulto Afetação > 5 e < 14. (Com ou Sem BA) </b>"
+    res.innerHTML = "<p><b>Vulto Afetação > 5 e < 14. (Com ou Sem BA) </b></p>"
     res.innerHTML += "<p>Horário Comercial: Supervisor + Gerente N5 + Gerente N4</p>"
     res.innerHTML += "<p>Fora do Horário Comercial: Supervisor</p>"
-    res.innerHTML += "<b>Vulto Afetação a partir de 14. (Com ou Sem BA) </b>"
+    res.innerHTML += "<p><b>Vulto Afetação a partir de 14. (Com ou Sem BA) </b></p>"
     res.innerHTML += "<p>Horário Comercial: Supervisor + Gerente N5 + Gerente N4</p>"
     res.innerHTML += "<p>Fora do Horário Comercial: Imediatamente Supervisor</p>"
     res.innerHTML += "<p>Fora do Horário Comercial: Após 02h da falha escalonar o Gerente N5 independente do horário. </p>"
-    res.innerHTML += 
-    "<p>Fora do Horário Comercial: Após 04h da falha escalonar Ger. N4 independente do horário. </p>"
-    res.innerHTML += "<b>Sites 4G OI afetação >0 (Somente em horário Comercial) </b>"
+    res.innerHTML += "<p>Fora do Horário Comercial: Após 04h da falha escalonar Ger. N4 independente do horário. </p>"
+    res.innerHTML += "<p><b>Sites 4G OI afetação >0 (Somente em horário Comercial) </b></p>"
     res.innerHTML += "<p>No período da 07h até 20h, com exceção Sábados, Domingos e Feriados, vamos avisar imediatamente o Gerente N5 + Ger. N4 sobre a interrupção de um ou mais sites 4G. </p>"
-    res.innerHTML += "<b>Sites 4G OI afetação =< 2 (Fora do horário comercial) </b>"
+    res.innerHTML += "<p><b>Sites 4G OI afetação =< 2 (Fora do horário comercial) </b></p>"
     res.innerHTML += "<p>Escalonar após 02h Supervisor / Supervisor de Plantão. </p>"
     res.innerHTML += "<p>Após 04h da falha escalonar o Gerente N5 independente do horário. </p>"
     res.innerHTML += "<p>Após 06h da falha escalonar Ger N4 independente do horário. </p>"
-    res.innerHTML += "<b>Sites 4G OI afetação >2 (Fora do horário comercial) </b>"
+    res.innerHTML += "<p><b>Sites 4G OI afetação >2 (Fora do horário comercial) </b></p>"
     res.innerHTML += "<p>Escalonar imediatamente Supervisor / Supervisor de Plantão. </p>"
     res.innerHTML += "<p>Após 02h da falha escalonar o Gerente N5 independente do horário. </p>"
     res.innerHTML += "<p>Após 04h da falha escalonar Ger. N4 independente do horário. </p>"
-    res.innerHTML += "<b>Sites 4G Ransharing (BA COF SP / SUL / CO) </b>"
+    res.innerHTML += "<p><b>Sites 4G Ransharing (BA COF SP / SUL / CO) </b></p>"
     res.innerHTML += "<p>Horário Comercial: Supervisor + Gerente N5 + Gerente N4</p>"
     res.innerHTML += "<p>Fora Horário Comercial: </p>"
     res.innerHTML += "<p>Após 02h da falha escalonar o Gerente Plantão</p>"
@@ -146,7 +145,7 @@ function CofSULCO(){
 
 function BAFO(){
     let res = document.getElementById("flista")
-    res.innerHTML = "<p>Todo BA causa <b>FO OI</b> não deve ser fechado nos <b>COS (SPCN1, SPCH1, SPCBS, SPCNS, SPC02)</b>, sempre tramitar o BA para o <b>COS de FO<br>.</p>"
+    res.innerHTML = "<p>Todo BA causa <b>FO OI</b> não deve ser fechado nos <b>COS (SPCN1, SPCH1, SPCBS, SPCNS, SPC02)</b>, sempre tramitar o BA para o <b>COS de FO.<br></p>"
     res.innerHTML += "<p><b>Obs:</b> Mesmo com afetação.</p>"
 
 }
