@@ -21,8 +21,6 @@ section#cima{
     box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
     font: normal 12pt arial;
     
-    
-    
 }
 
 
@@ -35,9 +33,7 @@ div#borda{
 div#concentradores{
     border-bottom: 1px black solid;
     color: red;
-    
 }    
-
 
 section#baixo{
     background-color: white;
@@ -48,8 +44,6 @@ section#baixo{
     margin: 10px auto auto auto;
     box-shadow: 3px 3px 10px rgb(0,0,0,0.514);
     font: normal 12pt arial;
-    
-    
 }
 
 
@@ -68,7 +62,6 @@ select#flista{
 
     width: 700pt;
     position: relative;
- 
 }
 
 h3{
