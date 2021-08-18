@@ -3,12 +3,20 @@ body{
     
 }
 
+header#cabecalho hgroup{
+    color:red;
+    
+    
+}
+
 header#cabecalho {
     border-bottom: 1px black solid;
 }
 
+
 header#cabecalho h1{
     padding: 25px 10px 10px 10px
+    
 }
 
 div#interface {
@@ -43,7 +51,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -12px;
-    left: 700px;
+    left: 20px;
 }
 
 nav#menu li:hover {
@@ -52,7 +60,7 @@ nav#menu li:hover {
 
 nav#menu li {
     display: inline-block;
-    background-color: rgb(179, 250, 165);
+    background-color: rgb(206, 236, 206);
     padding: 10px;
     margin: 1px;
     border-radius: 5px;
@@ -123,5 +131,9 @@ div#flista h3{
     font: bold 20px arial;
     color: red;
     padding: 10px;
+}
+
+div#flista p{
+    text-align: center;
 }
 
