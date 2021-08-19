@@ -207,3 +207,76 @@ function acionamentoTEC(){
     res.innerHTML += "<p>Para todos os casos de Vulto a partir de 5 sites onde haja um concentrador enviar técnico imediatamente e após fazer acionamento de suporte de TX e de provedor se for o caso de TX LL com o técnico já em deslocamento</p>"
 
 }
+
+
+function vultoCN19(){
+    let resLL = document.getElementById("flistaLL")
+
+    resLL.innerHTML = "<p><b>LPs de 155M</b></p><br/><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador / SPSNG5546 - RUA ANTONIO NOVAES, 230 / SERRA NEGRA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> 3GSPSNG6014 / SPSNG5547 / SPSNG3199 / SPSNG5548 / 3GSPSNG6015 / 3GSPSNG3420 / 3GSPSNG6016</p>" 
+    resLL.innerHTML += "<p><b>SPSNG5546</b> / LP (155M) 115973892007298</p><br/><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador / RFD3150 - RUA OSVALDO RICOMINI,350-MARIA TERESA A GIMENES / RAFARD</b></p>" 
+    resLL.innerHTML += "<p><b>Cascata:</b> 3GSPRFD1523 / SPCPR4905 / 3GSPCPR1184</p>" 
+    resLL.innerHTML += "<p><b>SPRFD3150</b> / LP (155M) 115163496201492</p><br/><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador / SPSJV5432 - PRAÇA CORONEL JOAQUIM JOSÉ, 176 / SÃO JOÃO DA BOA VISTA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> SPSJV5430 / SPSJV5431 / SPSJV1213 / SPAGT2249 / 3GSPSJV1690 / 3GSPSJV1691 / 3GSPSJV1689</p>"
+    resLL.innerHTML += "<p><b>SPSJV5432</b> / LP (155M) 115533622023199</p><br/><br/>"
+ 
+    resLL.innerHTML += "<p><b>Concentrador SPMOC5162 - AV. SENADOR JOSÉ ERMIRIO DE MORAES, Nº 852-JARDIM LAVINIA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> SPMOC5161 / SPMOC1124 / SPMOC1123 / 3GSPMOC1650 / 3GSPMOC1651</p>"
+    resLL.innerHTML += "<p><b>SPMOC5162</b> / LP (155M) 113803656000694</p><br/><br/>"
+ 
+    resLL.innerHTML += "<p><b>Concentrador SPPAG5170 - RUA DUQUE DE CAXIAS, 1288 / PIRASSUNUNGA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> SPPAG5257 / SPPTF5267 / SPSRQ5371 / SPSRQ5372 / SPPAG5254 / SPPAG5258 / SPPAG5256 / SPSZX2551 / SPPAG5255 / SPSRQ5373 / 3GSPPAG5893 / 3GSPPAG5892 / 3GSPPAG5890 / 3GSPPTF1731 / 3GSPPAG5891</p>"
+    resLL.innerHTML += "<p><b>SPPAG5170</b> / LPs (155M) 114833561017295 / 114833561023896</p><br/><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador PDA5207 - FAZENDA SÃO JOÃO DA BOA VISTA - MORRO DO CRISTO REDENTOR / PEDREIRA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> 3GSPPDA1857 / SPPDA5206 / 3GSPPDA1856</p>"
+    resLL.innerHTML += "<p><b>SPPDA5207</b> / LP (155M) 114573893011794</p><br/><br/>"
+
+
+    resLL.innerHTML += "<p><b>LPs 2M</p></b><br/><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador SPCBC4919 - RUA MARIO BENI,32 CENTRO / CASA BRANCA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> 3GSPCBC1560 / SPCBC4919</p>"
+    resLL.innerHTML += "<p><b>3GSPCBC1560</b> / LP 111533671011091</p>"
+    resLL.innerHTML += "<p><b>3GSPCBC1560</b> / LP 111533671011296</p>"
+    resLL.innerHTML += "<p><b>SPCBC4919</b> / LP 111533671017197</p>"
+    resLL.innerHTML += "<p><b>CBC1122</b> / LP 111533671017090</p><br/><br/>"
+
+    resLL.innerHTML += "<p><b>SOR0030 - LAVRAS DE BAIXO, 760 / SOCORRO</b></p>"
+    resLL.innerHTML += "<p><b>3GSPSOR0031</b> / LP 116073895019694</p>"
+    resLL.innerHTML += "<p><b>3GSPSOR0031</b> / LP 116073895019791</p>"
+    resLL.innerHTML += "<p><b>3GSPSOR0031</b> / LP 116073895019899</p>"
+    resLL.innerHTML += "<p><b>3GSPSOR0031</b> / LP 116073895017594</p>"
+    resLL.innerHTML += "<p><b>SPSOR0030</b> / LP 116073895019996</p><br/><br/>"
+
+
+    resLL.innerHTML += "<p><b>ARO4687 - RUA ALCIDES BARASSA,499 CA B-JARDIM SILVANA - SÃO JUDAS / AMPARO</p></p>"
+    resLL.innerHTML += "<p><b>3GSPARO5707</b> / LP 110233807237091</p>"
+    resLL.innerHTML += "<p><b>3GSPARO5707</b> / LP 110233807237296</p>"
+    resLL.innerHTML += "<p><b>SPARO4687</b> / LP 110233807236494</p>"
+    resLL.innerHTML += "<p><b>SPARO4687</b> / LP 110233807237393</p>"
+    resLL.innerHTML += "<p><b>SPARO4687</b> / LP 111533671014392</p>"
+    
+    resLL.innerHTML += "<p><b>SMY2490 - RUA FRANCISCO DE ANGELO, S/N /RUA JOÃO BATISTA GRAVENA, 1380 / SANTA MARIA DA SERRA</b></p>"
+    resLL.innerHTML += "<p><b>SPSMY2490</b> / LP 116263487002190</p>"
+    resLL.innerHTML += "<p><b>SPSMY2490</b> / LP 116263487002298</p><br/><br/>"
+ 
+    resLL.innerHTML += "<p><b>MMU2414 - RUA AMADEU AMARAL, S/N / MOMBUCA</b></p>"
+    resLL.innerHTML += "<p><b>SPMMU2414</b> / LP 113843488001594</p>"
+    resLL.innerHTML += "<p><b>SPMMU2414</b> / LP 113843488001799</p><br/><br/>"
+ 
+
+    resLL.innerHTML += "<p><b>SPSPD5505 / RUA JOSÉ E. DE OLIVEIRA,1160 / SÃO PEDRO</b></p>"
+    resLL.innerHTML += "<p><b>SPSPD5505</b> / LP 115703481009897</p>"
+    resLL.innerHTML += "<p><b>SPSPD0891</b> / LP 115703481004291</p>"
+    resLL.innerHTML += "<p><b>SPSPD0891</b> / LP 115703481010690</p>"
+    resLL.innerHTML += "<p><b>SPSPD0893</b> / LP 115703481009099</p>"
+    resLL.innerHTML += "<p><b>SPSPD0893</b> / LP 115703481010496</p><br/><br/>"
+
+}   
