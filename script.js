@@ -280,3 +280,69 @@ function vultoCN19(){
     resLL.innerHTML += "<p><b>SPSPD0893</b> / LP 115703481010496</p><br/>"
 
 }   
+
+function vultoCN12(){
+    let resLL = document.getElementById("flistaLL")
+
+    resLL.innerHTML = "<h4>LPs de 2M e 10M</b></h4>"
+
+    resLL.innerHTML += "<p><b>SST5518 - AVENIDA/VIA PRESTES MAIA, 810 (PARALELA À RODOVIA RIO X SANTOS, KM166) – SÃO SEBTASTIÃO</b></p>"
+    resLL.innerHTML += "<p><b>Obs.:</b> Não há informação de qual é a LP de 2M para o 3G</p>"
+    resLL.innerHTML += "<p><b>3GSPSST2133</b> / LP (10M) 115733862611195</p>"
+    resLL.innerHTML += "<p><b>SPSST5518</b> / LP 115733862611292</p>"
+    resLL.innerHTML += "<p><b>SPSST5518</b> / LP 115733862611390</p>"
+    resLL.innerHTML += "<p><b>SPSST5518</b> / LP 115733862611594</p><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador: SST5513 – ALAMEDA TORRES, 10 - TOQUE TOQUE PEQUENO - SÃO SEBTASTIÃO</b></p>"
+    resLL.innerHTML += "<p><b>Cascata: </b>  3GSPSST3377 / SPSST3458</p>"
+    resLL.innerHTML += "<p><b>Obs.:</b>  Não há informação de qual é a LP de 2M para o 3G</p>"
+    resLL.innerHTML += "<p><b>3GSPSST3377</b> / LP (10M) 115733864914390</p>"
+    resLL.innerHTML += "<p><b>SPSST5513</b> / LP 115733864914594</p>"
+    resLL.innerHTML += "<p><b>SPSST5513</b> / LP 115733864914691</p>"
+    resLL.innerHTML += "<p><b>SPSST3458</b> / LP 120743867021196</p><br/>"
+
+    resLL.innerHTML += "<p><b>SST5527 - RODOVIA SP 55 (RIO-SANTOS), KM184+813,2 (SENT. NORTE) BORACEIA / RDV MANOEL H DO REGO SP 55 – SÃO SEBASTIÃO</b></p>"
+    resLL.innerHTML += "<p><b>3GSPSST3339</b> / LP (10M) 120743867021099</p>"
+    resLL.innerHTML += "<p><b>3GSPSST3339</b> / LP 120743867021390</p>"
+    resLL.innerHTML += "<p><b>3GSPSST3339</b> / LP 120743867021498</p>"
+    resLL.innerHTML += "<p><b>SPSST5527</b> / LP 120743867021196</p>"
+    resLL.innerHTML += "<p><b>SPSST5527</b> / LP 120743867021293</p><br/>"
+
+    resLL.innerHTML += "<p><b>Concentrador: SST5521 - AV. MÃE BERNARDA, 4035 / AV MANOEL HIPOLITO DO REGO,DR – SÃO SEBASTIÃO</b></p>"
+    resLL.innerHTML += "<p><b>Cascata: </b>  3GSPSST3329 / SPSST5520 / 3GSPSST5938</p>"
+    resLL.innerHTML += "<p><b>Obs.: </b>  Não há informação de LP para o 3GSPSST3329</p>"
+    resLL.innerHTML += "<p><b>SPSST5521</b>  / LP 115733864913997</p>"
+    resLL.innerHTML += "<p><b>SPSST5521</b>  / LP 115733864914098</p>"
+ 
+    resLL.innerHTML += "<p><b>Obs.: </b>  Não há informação de qual é a LP de 2M para o 3G</p>"
+    resLL.innerHTML += "<p><b>SPSST5520</b>  / LP 115733864912796</p>"
+    resLL.innerHTML += "<p><b>SPSST5520</b>  / LP 115733864912699</p>"
+    resLL.innerHTML += "<p><b>3GSPSST5938</b>  / LP (10M) 115733864912290</p><br/>"
+
+    resLL.innerHTML += "<p><b>SST5517 - RUA DAS PEDRAS,48/60 – SÃO SEBASTIÃO</b></p>"
+    resLL.innerHTML += "<p><b>Obs.: </b>   Não há informação de qual é a LP de 2M para o 3G</p>"
+    resLL.innerHTML += "<p><b>SPSST5517</b>   / LP 120743865020290</p>"
+    resLL.innerHTML += "<p><b>SPSST5517</b>   / LP 120743865020494</p>"
+    resLL.innerHTML += "<p><b>3GSPSST2982</b>   / LP (10M) 120743865021091</p><br/>"
+ 
+    resLL.innerHTML += "<p><b>SST5512 - RUA BERNADINO DE MATOS,400 – SÃO SEBASTIÃO</b></p>"
+    resLL.innerHTML += "<p><b>Obs.: </b>  Não há informação de qual é a LP de 2M para o 3G</p>"
+    resLL.innerHTML += "<p><b>SPSST5512</b>   / LP 115733864913091</p>"
+    resLL.innerHTML += "<p><b>3GSPSST3327</b>   / LP (10M) 115733864913890</p><br/>"
+
+    resLL.innerHTML += "<p><b>UTB5645 - RODOVIA MANUEL HIPOLITO REGO (SP 55), KM 68.5, N°700 - HOTEL ÁGUA DOCE - UBATUBA<br/></p>"
+    resLL.innerHTML += "<p><b>SPUTB5645</b>    / LP 116773848206496</p>"
+    resLL.innerHTML += "<p><b>SPUTB5645</b>    / LP 116773848206895</p>"
+    resLL.innerHTML += "<p><b>3GSPUTB3368</b>    / LP 116773848206992</p>"
+    resLL.innerHTML += "<p><b>3GSPUTB3368</b>    / LP 116773848207093</p>"
+    resLL.innerHTML += "<p><b>3GSPUTB3368</b>    / LP (10M) 116773848206399</p><br/>"
+    
+    resLL.innerHTML += "<p><b>UTB5639 – RUA 37, 191 - UBATUBA<br/></p>"
+    resLL.innerHTML += "<p><b>SPUTB5639</b>    / LP 116773845012895</p>"
+    resLL.innerHTML += "<p><b>SPUTB5639</b>    / LP 116773845012992</p>"
+    resLL.innerHTML += "<p><b>3GSPUTB3343</b>    / LP 116773845012593</p>"
+    resLL.innerHTML += "<p><b>3GSPUTB3343</b>    / LP 116773845013395</p>"
+    resLL.innerHTML += "<p><b>3GSPUTB3343</b>    / LP (10M) 116773845013492</p><br/>"
+
+
+}
