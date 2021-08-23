@@ -133,6 +133,12 @@ div#flista h3{
     padding: 10px;
 }
 
+div#flistaLL h3{
+    font: bold 20px arial;
+    color: red;
+    padding: 10px;
+}
+
 div#flista p{
     text-align: center;
 }
