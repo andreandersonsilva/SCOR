@@ -420,3 +420,75 @@ function vultoCN12(){
 
 
 }
+
+function vultoCN15(){
+
+    let resLL = document.getElementById("flistaLL")
+
+    resLL.innerHTML = "<h4>LPs de 155M</b></h4><br/>"
+
+    resLL.innerHTML += "<p><b>2GCPB4904 / RUA BENJAMIN CONSTANT,510 / CAPAO BONITO</b></p>"
+    resLL.innerHTML += "<p><b>Cascata:</b> 3GSPCPB1182 / SPRIG1044 / SPCPB1247 / 3GSPCPB1181</p>"
+    resLL.innerHTML += "<p><b>SPCBP4904</b> / LP (155M) 111453542206692</p></br>"
+
+    resLL.innerHTML += "<p><b>2GIVA5055 / RUA MARIO PRANDINI, 775 – CENTRO / ITAPEVA</b></p>"
+    resLL.innerHTML += "<p><b>Cascata: </b> 3GIVA1719 / 2GIVA1720 / 3GIVA1721 / 2GIVA1254 / 3GIVA1718</p>"
+    resLL.innerHTML += "<p><b>SPIVA5055</b>  / LP (155M) 112933522048598</p>"
+
+    resLL.innerHTML += "<h4>LPs de 2M</b></h4>"
+
+    resLL.innerHTML += "<p><b>2GAII1461 / RUA BENEDITO DIAS SILVA,150 / APIAI</b></p>"
+    resLL.innerHTML += "<p><b>Cascata: </b>  AII2260</p>"
+    resLL.innerHTML += "<p><b>SPAII1461</b>  / LP 110353552001790</p>"
+    resLL.innerHTML += "<p><b>SPAII1461</b>  / LP 110353552360390</p>"
+    resLL.innerHTML += "<p><b>SPAII2260 </b> / LP 116583534700590</p></br>"
+    
+    
+    resLL.innerHTML += "<p><b>2GBRI2287 / RUA 21 DE ABRIL, 58/86 / BURI</b></p>"
+    resLL.innerHTML += "<p><b>SPBRI2287</b>   / LP 111203646033094</p></br>"
+    
+    resLL.innerHTML += "<p><b>2GBCH3425 / RUA ANTÕNIO AMÃNCIO OLIVEIRA ROSA - Nº202/RUA ZACARIAS SARTI, 310 / BARRA DO CHAPEU</b></p>"
+    resLL.innerHTML += "<p><b>SPBCH3425</b>    / LP 122723554020898</p></br>"
+
+    resLL.innerHTML += "<p><b>2GBSI3492 / RUA LAURINDO FERREIRA QUEIROZ, EM FRENTE À ANTÔNIO CARLOS RUIVO / BOM SUCESSO DE ITARARE</b></p>"
+    resLL.innerHTML += "<p><b>SPBSI3492</b>     / LP 122733533700293</p></br>"
+     
+    
+    resLL.innerHTML += "<p><b>2GGPA1010 / RUA JOSÉ NARCISO DA COSTA AMORIM,139 – FUNDOS / GUAPIARA</b></p>"
+    resLL.innerHTML += "<p><b>SPGPA1010</b>     / LP 112443547112295</p>"
+    resLL.innerHTML += "<p><b>SPGPA1010</b>     / LP 112443547112392</p></br>"
+
+    
+    resLL.innerHTML += "<p><b>2GIER2377 / R. JOSEFINA SILVA MELO, 354 / ITABERA</b></p>"
+    resLL.innerHTML += "<p><b>SPIER2377</b>     / LP 112863562000893</p>"
+    resLL.innerHTML += "<p><b>SPIER2377</b>     / LP 112863562001598</p></br>"
+    
+    resLL.innerHTML += "<p><b>2GITR5061 / 3GITR1795 / RUA FREI CANECA ,2275 / ITARARE</b></p>"
+    resLL.innerHTML += "<p><b>SPITR5061</b>     / LP 113013532212190</p>"
+    resLL.innerHTML += "<p><b>3GSPITR1795</b>     / LP 113013532212890</p>"
+    resLL.innerHTML += "<p><b>3GSPITR1795 </b>    / LP 113013532212998</p></br>"
+
+    
+    resLL.innerHTML += "<p><b>2GNVC1029 / RUA PROJETADA S/N, FINAL DA RUA ESTEVÃO (ANTIGA RUA F (PROLONGAMENTO ACESSO A MINERADORA) / NOVA CAMPINA</b></p>"
+    resLL.innerHTML += "<p><b>SPNVC1029 </b>    / LP 122753535101391</p></br>"
+
+    
+    resLL.innerHTML += "<p><b>2GRRL1046 / RUA APARECIDO LUCIO MARTINS, S/N / RIVERSUL</b></p>"
+    resLL.innerHTML += "<p><b>Cascata: </b>    2GIRG2381</p>"
+    resLL.innerHTML += "<p><b>SPRRL1046 </b>    / LP 115303571000699</p></br>"
+
+    
+    resLL.innerHTML += "<p><b>2GRIC2467 / RUA JOSÉ RODRIGUES GARCIA, 150 FUNDOS / RIBEIRAO BRANCO</b></p>"
+    resLL.innerHTML += "<p><b>SPRIC2467 </b>    / LP 115253553003290</p></br>"
+
+    
+    
+    resLL.innerHTML += "<p><b>2GTQV1053 / ROD. FRANCISCO ALVES NEGRÃO, KM264, Nº 350 / TAQUARIVAI</b></p>"
+    resLL.innerHTML += "<p><b>SPTQV1053</b>     / LP 116583534700492</p></br>"
+
+
+
+
+
+
+}
