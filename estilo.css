@@ -9,6 +9,18 @@ header#cabecalho hgroup{
     
 }
 
+div#ProcedBAs{
+    
+    margin-top: 10px;
+            
+}
+
+img.SGE{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header#cabecalho {
     border-bottom: 1px black solid;
 }
