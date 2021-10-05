@@ -533,7 +533,7 @@ function vultoCN18(){
 
     resLL.innerHTML += "<p><b>Concentrador: SPPNR2434 / AVENIDA PRESTES MAIA, 1004 / PANORAMA</b></p>"
     resLL.innerHTML += "<p><b>SPPNR2434</b> / LP 114373871113397</p>"
-    resLL.innerHTML += "<p><b>SPPUY2439</b> / LP 114373871113990 / PAULICEIA</p></br>"
+    resLL.innerHTML += "<p><b>SPPUY2439</b> / LP 114373871113990 / <b>PAULICEIA</b></p></br>"
 
     resLL.innerHTML += "<p><b>SPIPE1345 / R. GOIAS, 52 / IEPE</b></p>"
     resLL.innerHTML += "<p><b>SPIPE1345</b> / LP 112693264103693</p></br>"
