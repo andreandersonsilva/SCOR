@@ -421,6 +421,32 @@ function vultoCN12(){
 
 }
 
+function vultoCN14(){
+
+    let resLL = document.getElementById("flistaLL")
+
+    resLL.innerHTML = "<h4>LPs de 2M</b></h4>"
+
+    resLL.innerHTML += "<p><b>Concentrador: SPSCP3490 / RODOVIA CASTELLO BRANCO, KM304/LOGRADOURO RURAL 82 S/N1 KM304 / SANTA CRUZ DO RIO PARDO</b></p>"
+    resLL.innerHTML += "<p><b>SPSCP3490</b>/ LP 116183372102395</p>"
+    resLL.innerHTML += "<p><b>SPABB2252</b> / LP 116183372002692 / <b>AGUAS DE SANTA BARBARA</b></p>"
+    resLL.innerHTML += "<p><b>SPABB2251</b>/ LP 116183372005390 / <b>AGUAS DE SANTA BARBARA</b></p></br>"
+
+    resLL.innerHTML += "<p><b>SPSCP5368 / AV: CORONEL CLEMENTINO GONÇALVES, 721 / SANTA CRUZ DO RIO PARDO</b></p>"
+    resLL.innerHTML += "<p><b>SPSCP5368</b> / LP 116183372232493</p>"
+    resLL.innerHTML += "<p><b>SPSCP5368</b> / LP 116183372232698</p>"
+    resLL.innerHTML += "<p><b>3GSPSCP1880</b> / LP 116183372232590</p>"
+    resLL.innerHTML += "<p><b>3GSPSCP1880</b> / LP 116183372232892</p></br>"
+
+    resLL.innerHTML += "<p><b>SPSTR2505 / ACESSO A FAZENDA RIBEIRÃO DE SÃO PEDRO S/Nº/R. VEREADOR EVARISTO CASTRO LEITE, 571 / SAO PEDRO DO TURVO</b></p>"
+    resLL.innerHTML += "<p><b>SPSTR2505</b> / LP 114613377101790</p></br>"
+
+    resLL.innerHTML += "<p><b>SPTAG2516 / RUA MAURILIO RODRIGUES DE CAMARGO,300 / TAGUAI</b></p>"
+    resLL.innerHTML += "<p><b>SPTAG2516</b> / LP 116463386002090</p></br>"
+
+
+}
+
 function vultoCN15(){
 
     let resLL = document.getElementById("flistaLL")
@@ -489,6 +515,41 @@ function vultoCN15(){
 
 
 
+
+
+}
+
+function vultoCN18(){
+
+    let resLL = document.getElementById("flistaLL")
+
+    resLL.innerHTML = "<h4>LPs de 2M</b></h4>"
+
+    resLL.innerHTML += "<p><b>SPPGP5194 / MONTILHO GORAIBI, 473 OU RUA MANILIO GOBBI N° 473 / PARAGUACU PAULISTA</b></p>"
+    resLL.innerHTML += "<p><b>SPPGP5194</b> / LP 114403361003897</p>"
+    resLL.innerHTML += "<p><b>SPPGP5194</b> / LP 114403361004192</p>"
+    resLL.innerHTML += "<p><b>3GSPPGP1866</b> / LP 114403361003994</p>"
+    resLL.innerHTML += "<p><b>3GSPPGP1866</b> / LP 114403361004095</p></br>"
+
+    resLL.innerHTML += "<p><b>Concentrador: SPPNR2434 / AVENIDA PRESTES MAIA, 1004 / PANORAMA</b></p>"
+    resLL.innerHTML += "<p><b>SPPNR2434</b> / LP 114373871113397</p>"
+    resLL.innerHTML += "<p><b>SPPUY2439</b> / LP 114373871113990 / PAULICEIA</p></br>"
+
+    resLL.innerHTML += "<p><b>SPIPE1345 / R. GOIAS, 52 / IEPE</b></p>"
+    resLL.innerHTML += "<p><b>SPIPE1345</b> / LP 112693264103693</p></br>"
+
+    resLL.innerHTML += "<p><b>SPMOL1358 / RUA JOSÉ CANDIDO DE OLIVEIRA, AO LADO DA ADUTORA DE AGUA E ESGOSTO / MONTE CASTELO</b></p>"
+    resLL.innerHTML += "<p><b>SPMOL1358</b> / LP 113913855113794</p></br>"
+
+    resLL.innerHTML += "<p><b>SPPDP1363 / RUA PRESIDENTE PRUDENTE, 211 / PEDRINHAS PAULISTA</b></p>"
+    resLL.innerHTML += "<p><b>SPPDP1363</b> / LP 117543375000390</p></br>"
+
+    resLL.innerHTML += "<p><b>SPTUM2526 / RUA CORIMBATÁ, AO LADO DO Nº 178 / TARUMA</b></p>"
+    resLL.innerHTML += "<p><b>SPTUM2526</b> / LP 119453329104296</p></br>"
+
+    resLL.innerHTML += "<p><b>Concentrador: SPROA2476 / RUA MARIA F. PEREIRA S/N / ROSANA</b></p>"
+    resLL.innerHTML += "<p><b>SPROA2476</b> / LP 115423288003497</p>"
+    resLL.innerHTML += "<p><b>SPROA2475</b> / LP 115423288000897</p></br>"
 
 
 }
